@@ -1,3 +1,4 @@
 import readlineSync from 'readline-sync';
 
-export const whatName = readlineSync.question;
+const whatName = readlineSync.question;
+export default whatName;
